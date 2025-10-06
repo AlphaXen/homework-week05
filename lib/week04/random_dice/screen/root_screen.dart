@@ -74,7 +74,7 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
   BottomNavigationBar renderBottomNavigation() {
     return BottomNavigationBar(
       currentIndex: controller!.index,
-      onTap: (int index) {
+      onTap: (int index) { // 탭이 선택될 때마다 실행되는 함수
         setState((){
           controller!.animateTo(index);
         });
