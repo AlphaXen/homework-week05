@@ -22,7 +22,7 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
   Widget build(BuildContext context) {
     return Scaffold(
       body: TabBarView( // 탭 화면을 보여줄 위젯
-        controller: controller,
+        controller: controller, // 컨트롤러 등록하기
         children: renderChildren(),
       ),
 
