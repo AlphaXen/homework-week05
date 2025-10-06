@@ -16,5 +16,5 @@ class SettingScreen extends StatelessWidget {
   }) : super(key: key);
 
   @override
-  Widget build
+  Widget build(BuildContext context)
 }
