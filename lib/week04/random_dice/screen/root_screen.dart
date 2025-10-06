@@ -6,7 +6,7 @@ class RootScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: TabBarView(
+      body: TabBarView( // 탭 화면을 보여줄 위젯
         children: renderChildren(),
       ),
 
@@ -17,7 +17,7 @@ class RootScreen extends StatelessWidget {
   List<Widget> renderChildren() {
     return [];
   }
-
+  
   BottomNavigationBar renderBottomNavigation() {
     return BottomNavigationBar(items: []);
   }
