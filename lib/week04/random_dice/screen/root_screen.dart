@@ -11,7 +11,7 @@ class RootScreen extends StatefulWidget {
 class _RootScreenState extends State<RootScreen> with
 TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
   TabController? controller; // 사용할 TabController 선언
-  double threshold
+  double threshold = 2.7; // 민감도의 기본값 설정
 
   @override
   void initState() {
