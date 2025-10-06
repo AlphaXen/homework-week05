@@ -1,6 +1,7 @@
 import 'package:myapp/week04/random_dice/const/colors.dart';
 import 'package:myapp/week04/random_dice/screen/home_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:myapp/week04/random_dice/screen/root_screen.dart';
 
 void main() {
   runApp(
@@ -21,7 +22,7 @@ void main() {
           backgroundColor: backgroudColor, // 배경색
         ),
       ),
-      home: HomeScreen(),
+      home: RootScreen(), // HomeScreen을 RootScreen으로 변경
     ),
   );
 }
