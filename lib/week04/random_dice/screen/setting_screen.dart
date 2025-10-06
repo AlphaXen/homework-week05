@@ -14,4 +14,7 @@ class SettingScreen extends StatelessWidget {
     required this.threshold,
     required this.onThresholdChange,
   }) : super(key: key);
+
+  @override
+  Widget build
 }
