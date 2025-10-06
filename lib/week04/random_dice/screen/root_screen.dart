@@ -35,7 +35,7 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
   }
 
   void onPhoneShake() { // 감지 후 실행할 함수
-    final rand = new Random();
+    final rand = Random();
 
     setState((){
       number = rand.nextInt(5) + 1;
