@@ -20,6 +20,10 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
     controller!.addListener(tabListener);
   }
 
+  tabListener() {
+    setState(() {});
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
