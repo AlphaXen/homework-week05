@@ -14,6 +14,7 @@ class HomeScreen extends StatelessWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
+        // 주사위 이미지
         Center(
           child: Image.asset('asset/img/$number.png'),
         ),
@@ -28,7 +29,7 @@ class HomeScreen extends StatelessWidget {
         ),
         SizedBox(height: 12.0),
         Text(
-          number.toString(),
+          number.toString(), // 주사위 값에 해당되는 숫자
           style: TextStyle(
             color: primaryColor,
             fontSize: 60.0,
