@@ -27,7 +27,7 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
     // 컨트롤러 속성이 변경될 때마다 실행할 함수 등록
     controller!.addListener(tabListener);
 
-    shakeDetector = shakeDetector.autoStart( // 흔들기 감지 즉시 시작
+    shakeDetector = shakeDet.autoStart( // 흔들기 감지 즉시 시작
       shakeSlopTimeMS: 100, // 감지 주기
       shakeThresholdGravity: threshold, // 감지 민감도
       onPhoneShake: onPhoneShake, // 감지 후 실행할 함수
