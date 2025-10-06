@@ -51,7 +51,7 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
   List<Widget> renderChildren() {
     return [
       // HomeScreen을 불러와서 입력하기
-      HomeScreen(number: 1),
+      HomeScreen(number: number),
 
       SettingScreen(
         threshold: threshold,
