@@ -33,7 +33,9 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
 
   List<Widget> renderChildren() {
     return [
-      Con
+      Container(
+        child
+      )
     ];
   }
 
