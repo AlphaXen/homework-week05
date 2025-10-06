@@ -59,7 +59,12 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
     ];
   }
 
-  
+  // 슬라이더값 변경 시 실행 함수
+  void onThresholdChange(double val){
+    setState((){
+      threshold = val;
+    });
+  }
 
   // 탭 내비게이션을 구현하는 위젯
   BottomNavigationBar renderBottomNavigation() {
