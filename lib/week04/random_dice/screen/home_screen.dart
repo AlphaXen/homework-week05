@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
+  final int number;
+
   const HomeScreen({super.key});
 
   @override
