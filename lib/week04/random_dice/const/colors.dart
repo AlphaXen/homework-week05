@@ -1,3 +1,3 @@
 import 'package:flutter/material.dart';
 
-const backg
+const backgroudColor = Color(0xFF0E0
