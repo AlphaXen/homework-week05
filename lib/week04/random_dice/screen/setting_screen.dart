@@ -33,7 +33,10 @@ class SettingScreen extends StatelessWidget {
                 ),
               ),
             ],
-          )
+          ),
+        ),
+        Slider(
+          
         )
       ],
     )
