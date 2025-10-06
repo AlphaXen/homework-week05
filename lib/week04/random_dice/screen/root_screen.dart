@@ -9,6 +9,14 @@ class RootScreen extends StatelessWidget {
       body: TabBarView(
         children: renderChildren(),
       ),
-    )
+
+      bottomNavigationBar: renderBottomNavigation(),
+    );
   }
+
+  List<Widget> renderChildren() {
+    return [];
+  }
+
+  
 }
