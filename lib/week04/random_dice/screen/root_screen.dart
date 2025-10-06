@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/week04/random_dice/screen/home_screen.dart';
-import 'package:myapp/week04/random_dice/screen/setting_screen.dart';
 
 class RootScreen extends StatefulWidget {
   const RootScreen({super.key});
@@ -12,6 +11,7 @@ class RootScreen extends StatefulWidget {
 class _RootScreenState extends State<RootScreen> with
 TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
   TabController? controller; // 사용할 TabController 선언
+  double threshold
 
   @override
   void initState() {
