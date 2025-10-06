@@ -39,7 +39,7 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
   BottomNavigationBar renderBottomNavigation() {
     return BottomNavigationBar(
       items: [
-        BottomNavigationBarItem(
+        BottomNavigationBarItem( // 하단 탭바의 각 버튼을 구현
           icon: Icon(
             Icons.edgesensor_high_outlined,
           ),
