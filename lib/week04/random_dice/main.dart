@@ -14,10 +14,11 @@ void main() {
           // 노브가 아직 이동하지 않은 트랙 색상
           inactiveTrackColor: primaryColor.withOpacity(0.3),
         ),
+        // bottomNavigationBar 위젯 관련 테마
         bottomNavigationBarTheme: BottomNavigationBarThemeData(
-          selectedItemColor: primaryColor,
-          unselectedItemColor: secondaryColor,
-          backgroundColor: backgroudColor,
+          selectedItemColor: primaryColor, // 선택 상태 색
+          unselectedItemColor: secondaryColor, // 비선택 상태 색
+          backgroundColor: backgroudColor, // 배경색
         ),
       ),
       home: HomeScreen(),
