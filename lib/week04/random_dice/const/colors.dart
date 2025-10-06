@@ -1,3 +1,5 @@
 import 'package:flutter/material.dart';
 
-const backgroudColor = Color(0xFF0E0
+const backgroudColor = Color(0xFF0E0E0E); // 배경색
+const primaryColor = Colors.white; // 주색상
+final secondaryColor = Colors.grey[600]; // 보조 색상
