@@ -16,5 +16,14 @@ class SettingScreen extends StatelessWidget {
   }) : super(key: key);
 
   @override
-  Widget build(BuildContext context)
+  Widget build(BuildContext context) {
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Padding(
+          padding: const EdgeInsets.only(le)
+        )
+      ],
+    )
+  }
 }
