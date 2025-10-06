@@ -21,7 +21,19 @@ class SettingScreen extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Padding(
-          padding: const EdgeInsets.only(le)
+          padding: const EdgeInsets.only(left: 20.0),
+          child: Row(
+            children: [
+              Text(
+                '민감도',
+                style: TextStyle(
+                  color: secondaryColor,
+                  fontSize: 20.0,
+                  fontWeight: FontWeight.w700,
+                ),
+              ),
+            ],
+          )
         )
       ],
     )
