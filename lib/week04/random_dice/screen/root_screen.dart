@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/week04/random_dice/screen/home_screen.dart';
+import 'package:myapp/week04/random_dice/screen/setting_screen.dart';
 
 class RootScreen extends StatefulWidget {
   const RootScreen({super.key});
@@ -51,18 +52,14 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
       // HomeScreen을 불러와서 입력하기
       HomeScreen(number: 1),
 
-      Container( // 설정 스크린 탭
-        child: Center(
-          child: Text(
-            'Tab 2',
-            style: TextStyle(
-              color: Colors.white,
-            ),
-          ),
-        ),
+      SettingScreen(
+        threshold: threshold,
+        onThresholdChange: onThresholdChange,
       ),
     ];
   }
+
+  
 
   // 탭 내비게이션을 구현하는 위젯
   BottomNavigationBar renderBottomNavigation() {
