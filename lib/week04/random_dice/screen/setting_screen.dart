@@ -36,10 +36,10 @@ class SettingScreen extends StatelessWidget {
           ),
         ),
         Slider(
-          min: 0.1,
-          max: 10.0,
-          divisions: threshold,
-          onChanged: onThresholdChange,
+          min: 0.1, // 최솟값
+          max: 10.0, // 최댓값
+          divisions: threshold, // 최솟값과 최댓값 사이 구간 개수
+          onChanged: onThresholdChange, // 슬라이던 선태ㅑ
           label: threshold.toStringAsFixed(1),
         )
       ],
