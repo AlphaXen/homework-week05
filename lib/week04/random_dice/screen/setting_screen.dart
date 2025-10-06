@@ -8,12 +8,12 @@ class SettingScreen extends StatelessWidget {
   final ValueChanged<double> onThresholdChange;
 
   const SettingScreen({
-    Key? key,
+    super.key,
 
     // threshold와 onThresholdChange는 SettingScreen에서 입력
     required this.threshold,
     required this.onThresholdChange,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

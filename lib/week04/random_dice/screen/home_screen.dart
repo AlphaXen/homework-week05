@@ -6,8 +6,8 @@ class HomeScreen extends StatelessWidget {
 
   const HomeScreen({
     required this.number,
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
