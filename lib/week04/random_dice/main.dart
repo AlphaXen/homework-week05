@@ -7,10 +7,11 @@ void main() {
     MaterialApp(
       theme: ThemeData(
         scaffoldBackgroundColor: backgroudColor,
-        sliderTheme: SliderThemeData(
-          thumbColor: primaryColor,
-          activeTickMarkColor: primaryColor,
+        sliderTheme: SliderThemeData( // Slider 위젯 관련 테마
+          thumbColor: primaryColor, // 노브 색상
+          activeTickMarkColor: primaryColor, // 노브가 이동한 트랙 색상
 
+          // 노브가 아직 이동하지 않은 트랙 색상
           inactiveTrackColor: primaryColor.withOpacity(0.3),
         ),
         bottomNavigationBarTheme: BottomNavigationBarThemeData(
