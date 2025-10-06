@@ -33,7 +33,7 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
 
   List<Widget> renderChildren() {
     return [
-      Container(
+      Container( // 홈 탭
         child: Center(
           child: Text(
             'Tab 1',
@@ -43,7 +43,8 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
           ),
         ),
       ),
-      Container(
+
+      Container( // 설정 스크린 탭
         child: Center(
           child: Text(
             'Tab 2',
@@ -52,7 +53,7 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
             ),
           ),
         ),
-      )
+      ),
     ];
   }
 
