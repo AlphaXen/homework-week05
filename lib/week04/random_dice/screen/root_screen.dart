@@ -73,6 +73,12 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
   // 탭 내비게이션을 구현하는 위젯
   BottomNavigationBar renderBottomNavigation() {
     return BottomNavigationBar(
+      currentIndex: controller!.index,
+      onTap: (int index) {
+        setState((){
+          controller!.animateTo(index);
+        });
+      },
       items: [
         BottomNavigationBarItem( // 하단 탭바의 각 버튼을 구현
           icon: Icon(
