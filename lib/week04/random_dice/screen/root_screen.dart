@@ -26,6 +26,12 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
   }
 
   @override
+  dispose(){
+    controller!.removeListener(tabListener);
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: TabBarView( // 탭 화면을 보여줄 위젯
