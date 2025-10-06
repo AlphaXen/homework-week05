@@ -16,6 +16,8 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
     super.initState();
 
     controller = TabController(length: 2, vsync: this);  // 컨트롤러 초기화하기
+
+    controller!.addListener(tabListener);
   }
 
   @override
