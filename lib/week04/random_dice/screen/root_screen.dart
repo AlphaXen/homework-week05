@@ -15,13 +15,14 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
   void initState() {
     super.initState();
 
-    controller = TabController(length: 2, vsync: this);
+    controller = TabController(length: 2, vsync: this);  // 컨트롤러 초기화하기
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: TabBarView( // 탭 화면을 보여줄 위젯
+        controller: controller,
         children: renderChildren(),
       ),
 
