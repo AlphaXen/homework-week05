@@ -26,6 +26,10 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
 
     // 컨트롤러 속성이 변경될 때마다 실행할 함수 등록
     controller!.addListener(tabListener);
+
+    shakeDetector = shakeDetector.autoStart(
+      sh
+    )
   }
 
   tabListener() { // 리스너로 사용할 함수
