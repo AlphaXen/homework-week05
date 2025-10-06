@@ -36,8 +36,12 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
 
   void onPhoneShake() {
     final rand = new Random();
+
+    setState((){
+      number = rand.nextInt(5) + 1;
+    })
   }
-  
+
   tabListener() { // 리스너로 사용할 함수
     setState(() {});
   }
