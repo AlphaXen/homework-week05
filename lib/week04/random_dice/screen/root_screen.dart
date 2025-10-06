@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/week04/random_dice/screen/home_screen.dart';
 import 'package:myapp/week04/random_dice/screen/setting_screen.dart';
+import 'dart:math';
+import 'package:shake/shake.dart';
 
 class RootScreen extends StatefulWidget {
   const RootScreen({super.key});
@@ -14,6 +16,7 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
   TabController? controller; // 사용할 TabController 선언
   double threshold = 2.7; // 민감도의 기본값 설정
   int number = 1; // 주사위 숫자
+  ShakeDetector? shakeDetector;
 
   @override
   void initState() {
