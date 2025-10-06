@@ -34,11 +34,8 @@ class HomeScreen extends StatelessWidget {
             fontSize: 60.0,
             fontWeight: FontWeight.w200,
           ),
-        )
+        ),
       ],
-    )
-    return Scaffold(
-      body: Text('Home Screen'),
     );
   }
 }
