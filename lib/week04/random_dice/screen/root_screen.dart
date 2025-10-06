@@ -49,6 +49,7 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
   @override
   dispose(){
     controller!.removeListener(tabListener); // 리스너에 등록한 함수 등록 취소
+    shakeDetector!.stopListening(); // 흔들기 감지 중지
     super.dispose();
   }
 
