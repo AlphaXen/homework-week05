@@ -8,9 +8,8 @@ class RootScreen extends StatefulWidget {
 }
 
 class _RootScreenState extends State<RootScreen> with
-TickerProviderStateMixin{ // 
-  TabController? controller;
-}
+TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
+  TabController? controller; // 사용할 TabController 선언
 
   @override
   Widget build(BuildContext context) {
