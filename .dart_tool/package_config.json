@@ -129,21 +129,15 @@
     },
     {
       "name": "sensors_plus",
-      "rootUri": "file:///C:/Users/pokem/AppData/Local/Pub/Cache/hosted/pub.dev/sensors_plus-1.4.1",
+      "rootUri": "file:///C:/Users/pokem/AppData/Local/Pub/Cache/hosted/pub.dev/sensors_plus-6.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.3"
     },
     {
       "name": "sensors_plus_platform_interface",
-      "rootUri": "file:///C:/Users/pokem/AppData/Local/Pub/Cache/hosted/pub.dev/sensors_plus_platform_interface-1.2.0",
+      "rootUri": "file:///C:/Users/pokem/AppData/Local/Pub/Cache/hosted/pub.dev/sensors_plus_platform_interface-2.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
-    },
-    {
-      "name": "sensors_plus_web",
-      "rootUri": "file:///C:/Users/pokem/AppData/Local/Pub/Cache/hosted/pub.dev/sensors_plus_web-1.1.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
     },
     {
       "name": "shake",
