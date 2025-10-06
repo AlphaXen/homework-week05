@@ -28,8 +28,10 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
     controller!.addListener(tabListener);
 
     shakeDetector = shakeDetector.autoStart(
-      sh
-    )
+      shakeSlopTimeMS: 100,
+      shakeThresholdGravity: threshold,
+      onPhoneShake: onPhoneShake,
+    );
   }
 
   tabListener() { // 리스너로 사용할 함수
