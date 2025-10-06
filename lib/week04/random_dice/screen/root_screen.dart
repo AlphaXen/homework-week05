@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 
-clsss 
+class RootScreen extends StatefulWidget {
+  const RootScreen({Key? key}) : super(key: key);
+
+  @override
+  State<RootScreen> createState() => _RootScreenState();
+}
 
 class RootScreen extends StatelessWidget {
   const RootScreen({Key? key}) : super(key: key);
