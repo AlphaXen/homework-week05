@@ -27,7 +27,7 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
 
   @override
   dispose(){
-    controller!.removeListener(tabListener);
+    controller!.removeListener(tabListener); // 리스너에 등록한 함수 등록 취소
     super.dispose();
   }
 
@@ -79,6 +79,7 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
           controller!.animateTo(index);
         });
       },
+
       items: [
         BottomNavigationBarItem( // 하단 탭바의 각 버튼을 구현
           icon: Icon(
