@@ -47,7 +47,8 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
 
   List<Widget> renderChildren() {
     return [
-      
+      // HomeScreen을 불러와서 입력하기
+      HomeScreen(number: 1),
 
       Container( // 설정 스크린 탭
         child: Center(
