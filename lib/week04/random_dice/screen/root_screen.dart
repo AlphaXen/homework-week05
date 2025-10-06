@@ -10,6 +10,7 @@ class RootScreen extends StatelessWidget {
         children: renderChildren(),
       ),
 
+      // 아래 탭 내비게이션을 구현하는 매개변수
       bottomNavigationBar: renderBottomNavigation(),
     );
   }
@@ -17,7 +18,8 @@ class RootScreen extends StatelessWidget {
   List<Widget> renderChildren() {
     return [];
   }
-  
+
+  // 탭 내비게이션을 구현하는 위젯
   BottomNavigationBar renderBottomNavigation() {
     return BottomNavigationBar(items: []);
   }
