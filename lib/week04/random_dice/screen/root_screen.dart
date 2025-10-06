@@ -34,7 +34,24 @@ TickerProviderStateMixin{ // TickerProviderStateMixin 사용하기
   List<Widget> renderChildren() {
     return [
       Container(
-        child
+        child: Center(
+          child: Text(
+            'Tab 1',
+            style: TextStyle(
+              color: Colors.white,
+            ),
+          ),
+        ),
+      ),
+      Container(
+        child: Center(
+          child: Text(
+            'Tab 2',
+            style: TextStyle(
+              color: Colors.white,
+            ),
+          ),
+        ),
       )
     ];
   }
