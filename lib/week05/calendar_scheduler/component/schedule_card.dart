@@ -13,6 +13,19 @@ class _Time extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    
+    final textStyle = TextStyle(
+      fontWeight: FontWeight.w600,
+      color: PRIMARY_COLOR,
+      fontSize: 16.0,
+    );
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          '${startTime.toString().padLeft(2, '0')}'
+        )
+      ],
+    )
   }
 }
