@@ -26,9 +26,9 @@ class _HomeScreen extends State<HomeScreen> {
       floatingActionButton: FloatingActionButton( // 새 일정 버튼
         backgroundColor: PRIMARY_COLOR,
         onPressed: () {
-          showModalBottomSheet(
+          showModalBottomSheet( // BottomSheet 열기
             context: context,
-            isDismissible: true,
+            isDismissible: true, // 배경 탭했을 때 BottomSheet 닫기
             builder: (_) => ScheduleBottomSheet(),
           );
         },
