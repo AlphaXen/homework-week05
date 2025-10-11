@@ -21,7 +21,7 @@ class MainCalendar extends StatelessWidget {
       ),
       calendarStyle: CalendarStyle(
         isTodayHighlighted: false,
-        defaultDecoration: BoxDecoration(
+        defaultDecoration: BoxDecoration( // 기본 날짜 스타일
           borderRadius: BorderRadius.circular(6.0),
           color: LIGHT_GREY_COLOR,
         ),
