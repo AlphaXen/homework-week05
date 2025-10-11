@@ -24,8 +24,8 @@ class _HomeScreen extends State<HomeScreen> {
           children: [
             // 미리 작업해둔 달력 위젯 보여주기
             MainCalendar(
-              selectedDate: selectedDate,
-
+              selectedDate: selectedDate, // 선택된 날짜 전달하기
+            // 날짜가 선택되었을 때 실행할 함수
               onDaySelected: onDaySelected,
             ),
           ],
