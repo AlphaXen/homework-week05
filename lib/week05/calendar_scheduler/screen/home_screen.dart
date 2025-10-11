@@ -31,11 +31,11 @@ class _HomeScreen extends State<HomeScreen> {
               onDaySelected: onDaySelected, // 선택된 날짜
             ),
             SizedBox(height: 8.0),
-            TodayBanner(
+            TodayBanner( // 배너 추가하기
               selectedDate: selectedDate,
               count: 0,
-              ,
-            )
+            ),
+            SizedBox(height: 8.0),
             ScheduleCard( // 구현해둔 일정 카드
               startTime: 12,
               endTime: 14,
