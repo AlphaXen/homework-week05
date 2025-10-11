@@ -25,7 +25,7 @@ class MainCalendar extends StatelessWidget {
           borderRadius: BorderRadius.circular(6.0),
           color: LIGHT_GREY_COLOR,
         ),
-        selectedDecoration: BoxDecoration( // 주말 날짜 스타일
+        weekendDecoration: BoxDecoration( // 주말 날짜 스타일
           borderRadius: BorderRadius.circular(6.0),
           color: LIGHT_GREY_COLOR,
         ),
