@@ -31,7 +31,7 @@ class CustomTextField extends StatelessWidget {
             maxLines: isTime ? 1 : null,
             expands: !isTime,
             keyboardType: isTime ? TextInputType.number : TextInputType.multiline,
-            in
+            input
           )
         )
         TextFormField(), // 폼 안에서 텍스트 필드를 쓸 때 사용
