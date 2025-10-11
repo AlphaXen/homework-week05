@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:table_calendar/table_calendar.dart';
 import 'package:myapp/week05/calendar_scheduler/component/schedule_card.dart';
 import 'package:myapp/week05/calendar_scheduler/component/today_banner.dart';
-import 'package:myapp/week05/calendar_scheduler/component/'
+import 'package:myapp/week05/calendar_scheduler/component/schedule_bottom_sheet.dart';
+import 'package:myapp/week05/calendar_scheduler/const/color.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
