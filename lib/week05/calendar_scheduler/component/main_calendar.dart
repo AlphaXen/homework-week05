@@ -12,7 +12,11 @@ class MainCalendar extends StatelessWidget {
       lastDay: DateTime(3000, 1, 1), // 마지막 날
       focusDay: DateTime.now(), // 화면에 보여지는 날
       headerStyle: HeaderStyle(
-        titleCentered: true
+        titleCentered: true,
+        formatButtonVisible: false,
+        titleTextStyle: TextStyle(
+          
+        )
       )
     );
   }
