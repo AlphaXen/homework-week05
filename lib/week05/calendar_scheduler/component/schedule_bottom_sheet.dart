@@ -17,6 +17,21 @@ class _ScheduleBottomState extends State<ScheduleBottomSheet> {
         height: MediaQuery.of(context).size.height /2,
         color: Colors.white,
         child: Padding(
+          padding: const EdgeInsets.only(left: 8, right: 8, top: 8),
+          child: Column(
+            children: [
+              Row(
+                children: [
+                  Expanded(
+                    child: CustomTextField(
+                      label: '시작 시간',
+                      isTime: true,
+                    ),
+                  ),
+                ],
+              )
+            ],
+          )
         ),
       ),
     );
