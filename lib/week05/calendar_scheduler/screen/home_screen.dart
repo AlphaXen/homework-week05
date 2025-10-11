@@ -1,3 +1,7 @@
 import 'package:flutter/material.dart';
 
-class 
+class HomeScreen extends StatelessWidget {
+  cosnt HomeScreen({Key? key}) : super(key: key) {
+    
+  }
+}
