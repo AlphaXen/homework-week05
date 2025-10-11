@@ -36,15 +36,15 @@ class MainCalendar extends StatelessWidget {
             width: 1.0,
           ),
         ),
-        defaultTextStyle: TextStyle(
+        defaultTextStyle: TextStyle( // 기본 날짜 스타일
           fontWeight: FontWeight.w600,
           color: DARK_GREY_COLOR,
         ),
-        weekendTextStyle: TextStyle(
+        weekendTextStyle: TextStyle( // 주말 날짜 스타일
           fontWeight: FontWeight.w600,
           color: DARK_GREY_COLOR,
         ),
-        selectedTextStyle: TextStyle(
+        selectedTextStyle: TextStyle( // 선택된 날짜 스타일
           fontWeight: FontWeight.w600,
           color: PRIMARY_COLOR,
         ),
