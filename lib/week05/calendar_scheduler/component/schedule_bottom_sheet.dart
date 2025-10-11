@@ -45,6 +45,17 @@ class _ScheduleBottomState extends State<ScheduleBottomSheet> {
                   label: '내용',
                   isTime: false,
                 ),
+              ),
+              SizedBox(
+                width: double.infinity,
+                child: ElevatedButton(
+                  onPressed: onSavePressed,
+                  style: ElevatedButton.styleFrom(
+                    foregroundColor: Colors.white,
+                    backgroundColor: PRIMARY_COLOR,
+                  ),
+                  child: Text('저장'),
+                ),
               )
             ],
           )
@@ -52,4 +63,8 @@ class _ScheduleBottomState extends State<ScheduleBottomSheet> {
       ),
     );
   }
+}
+
+void onSavePressed() {
+  
 }
