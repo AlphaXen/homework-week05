@@ -15,8 +15,9 @@ class MainCalendar extends StatelessWidget {
         titleCentered: true,
         formatButtonVisible: false,
         titleTextStyle: TextStyle(
-          
-        )
+          fontWeight: FontWeight.w700,
+          fontSize: 16.0,
+        ),
       )
     );
   }
