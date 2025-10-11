@@ -13,7 +13,7 @@ class TodayBanner extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final textStyle = TextStyle(
+    final textStyle = TextStyle( // 기본으로 사용할 글꼴
       fontWeight: FontWeight.w600,
       color: Colors.white,
     );
@@ -26,7 +26,12 @@ class TodayBanner extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(
-              '${selectedDate.year}년 ${selectedDate.month}월 ${selectedDate.day}'
+              '${selectedDate.year}년 ${selectedDate.month}월 ${selectedDate.day}일',
+              style: textStyle,
+            ),
+            Text(
+              '$count개',
+              style: textStyle,
             )
           ],
         )
