@@ -20,7 +20,7 @@ class MainCalendar extends StatelessWidget {
         ),
       ),
       calendarStyle: CalendarStyle(
-        isToday
+        isTodayHighlighted: 
       )
     );
   }
