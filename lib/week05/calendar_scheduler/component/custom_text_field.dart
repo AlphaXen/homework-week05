@@ -42,11 +42,7 @@ class CustomTextField extends StatelessWidget {
                 suffixText: isTime ? '시' : null,
               ),
           ),
-        )
-        TextFormField(), // 폼 안에서 텍스트 필드를 쓸 때 사용
-      ],
+        ),
     );
   }
-
-
 }
