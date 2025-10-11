@@ -34,3 +34,10 @@ class _HomeScreen extends State<HomeScreen> {
     );
   }
 }
+
+void onDaySelected(DateTime selectedDate, DateTime focusedDate) {
+  
+  setState(() {
+    this.selectedDate = selectedDate;
+  });
+}
