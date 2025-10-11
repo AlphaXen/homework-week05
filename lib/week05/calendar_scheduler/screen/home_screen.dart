@@ -1,5 +1,6 @@
 import 'package:myapp/week05/calendar_scheduler/component/main_calendar.dart';
 import 'package:flutter/material.dart';
+import 'package:table_calendar/table_calendar.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -22,7 +23,11 @@ class _HomeScreen extends State<HomeScreen> {
         child: Column( // 달력과 리스트를 세로로 배치
           children: [
             // 미리 작업해둔 달력 위젯 보여주기
-            MainCalendar(),
+            MainCalendar(
+              selectedDate: selectedDate,
+
+              onDaySelected: OnDaySelected,
+            ),
           ],
         ),
       ),
