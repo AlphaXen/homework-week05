@@ -3,6 +3,8 @@ import 'package:table_calendar/table_calendar.dart';
 import 'package:myapp/week05/calendar_scheduler/const/color.dart';
 
 class MainCalendar extends StatelessWidget {
+  const MainCalendar({super.key});
+
   @override
   Widget build(BuildContext context) {
     return TableCalendar(
