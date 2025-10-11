@@ -10,8 +10,15 @@ class ScheduleCard extends StatelessWidget {
     required this.startTime,
     required this.endTime,
     required this.content,
-    Key? key
-  })
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      
+    )
+  }
 }
 
 class _Time extends StatelessWidget {
