@@ -26,7 +26,8 @@ class _HomeScreen extends State<HomeScreen> {
             MainCalendar(
               selectedDate: selectedDate, // 선택된 날짜 전달하기
             // 날짜가 선택되었을 때 실행할 함수
-              onDaySelected: onDaySelected,
+              onDaySelected: onDaySelected, // 선택된 날짜
+,
             ),
           ],
         ),
