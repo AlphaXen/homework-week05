@@ -49,7 +49,7 @@ class _Content extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Expanded(
+    return Expanded( // 최대한 넓게 늘리기
       child: Text(
         content,
       ),
