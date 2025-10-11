@@ -7,7 +7,7 @@ class ScheduleBottomSheet extends StatefulWidget {
   State<ScheduleBottomSheet> createState() => _ScheduleBottomState();
 }
 
-class _ScheduleBottomSheetState extends State<ScheduleBottomSheet> {
+class _ScheduleBottomState extends State<ScheduleBottomSheet> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
