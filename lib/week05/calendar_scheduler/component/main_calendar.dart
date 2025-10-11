@@ -18,6 +18,9 @@ class MainCalendar extends StatelessWidget {
           fontWeight: FontWeight.w700,
           fontSize: 16.0,
         ),
+      ),
+      calendarStyle: CalendarStyle(
+        isToday
       )
     );
   }
