@@ -9,7 +9,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreen extends State<HomeScreen> {
-  DateTime selectedDate = DateTime.utc(
+  DateTime selectedDate = DateTime.utc( // 선택된 날짜를 관리할 변수
     DateTime.now().year,
     DateTime.now().month,
     DateTime.now().day,
