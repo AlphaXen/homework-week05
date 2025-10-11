@@ -1,6 +1,19 @@
 import 'package:myapp/week05/calendar_scheduler/const/color.dart';
 import 'package:flutter/material.dart';
 
+class ScheduleCard extends StatelessWidget {
+  final int startTime;
+  final int endTime;
+  final String content;
+  
+  const ScheduleCard({
+    required this.startTime,
+    required this.endTime,
+    required this.content,
+    Key? key
+  })
+}
+
 class _Time extends StatelessWidget {
   final int startTime;
   final int endTime;
