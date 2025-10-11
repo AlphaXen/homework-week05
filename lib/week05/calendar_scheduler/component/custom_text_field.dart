@@ -27,7 +27,7 @@ class CustomTextField extends StatelessWidget {
         Expanded(
           flex: isTime ? 0 : 1,
           child: TextFormField(
-            cursorColor: Colors.grey,
+            cursorColor: Colors.grey, // 커서 색상 변경
             maxLines: isTime ? 1 : null,
             expands: !isTime,
             keyboardType: isTime ? TextInputType.number : TextInputType.multiline,
@@ -43,6 +43,7 @@ class CustomTextField extends StatelessWidget {
               ),
           ),
         ),
+      ],
     );
   }
 }
