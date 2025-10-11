@@ -26,7 +26,7 @@ class _HomeScreen extends State<HomeScreen> {
             MainCalendar(
               selectedDate: selectedDate,
 
-              onDaySelected: onDay,
+              onDaySelected: onDaySelected,
             ),
           ],
         ),
