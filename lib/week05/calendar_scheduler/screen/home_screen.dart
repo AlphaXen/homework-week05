@@ -41,3 +41,4 @@ void onDaySelected(DateTime selectedDate, DateTime focusedDate) {
     this.selectedDate = selectedDate;
   });
 }
+}
