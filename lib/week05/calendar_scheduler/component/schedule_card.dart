@@ -25,7 +25,18 @@ class ScheduleCard extends StatelessWidget {
       ),
       child: Padding(
         padding: const EdgeInsets.all(16.0),
-        child: Intrins,
+        child: IntrinsicHeight(
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              _Time(
+                startTime: startTime,
+                endTime: endTime,
+              ),
+
+            ],
+          ),
+        ),
       ),
     )
   }
