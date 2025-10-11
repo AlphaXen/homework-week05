@@ -3,11 +3,18 @@ import 'package:myapp/week05/calendar_scheduler/const/color.dart';
 import 'package:table_calendar/table_calendar.dart';
 
 class MainCalendar extends StatelessWidget {
-  const MainCalendar({super.key});
+  final OnDaySelected onDaySelected;
+  final DateTime selectedDate;
+
+  MainCalendar({
+    required this.onDaySelected,
+    required this.selectedDate,
+  });
 
   @override
   Widget build(BuildContext context) {
     return TableCalendar(
+      onDaySelected: onDaySelected,
       firstDay: DateTime(1800, 1, 1), // 첫째 날
       lastDay: DateTime(3000, 1, 1), // 마지막 날
       focusedDay: DateTime.now(), // 화면에 보여지는 날
