@@ -38,3 +38,22 @@ class _Time extends StatelessWidget {
     );
   }
 }
+
+class _Content extends StatelessWidget {
+  final String content;
+
+  const _Content({
+    required this.content,
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Expanded(
+      child: Text(
+        content,
+        
+      ),
+    )
+  }
+}
