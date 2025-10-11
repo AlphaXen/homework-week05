@@ -22,7 +22,7 @@ class TodayBanner extends StatelessWidget {
       color: PRIMARY_COLOR,
       child: Padding(
         padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
-        child: Row(
+        child: Row( // "년 월 일" 형태로 표시
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(
@@ -30,12 +30,12 @@ class TodayBanner extends StatelessWidget {
               style: textStyle,
             ),
             Text(
-              '$count개',
+              '$count개', // 일정 개수 표시
               style: textStyle,
             )
           ],
-        )
+        ),
       ),
-    )
+    );
   }
 }
