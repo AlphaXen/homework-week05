@@ -52,8 +52,7 @@ class _Content extends StatelessWidget {
     return Expanded(
       child: Text(
         content,
-        
       ),
-    )
+    );
   }
 }
