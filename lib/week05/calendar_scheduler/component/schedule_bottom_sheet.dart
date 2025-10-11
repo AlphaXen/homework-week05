@@ -20,7 +20,7 @@ class _ScheduleBottomState extends State<ScheduleBottomSheet> {
         height: MediaQuery.of(context).size.height /2 + bottomInset,
         color: Colors.white,
         child: Padding(
-          padding: EdgeInsets.only(left: 8, right: 8, top: 8),
+          padding: EdgeInsets.only(left: 8, right: 8, top: 8, bottom: bottomInset),
           child: Column(
             // 시간 관련 텍스트 필드와 내용 관련 텍스트 필드 세로로 배치
             children: [
